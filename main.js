@@ -38,16 +38,10 @@ function tocaSomPsh () {
     document.querySelector('#som_tecla_psh').play();
 }
 
-document.querySelector('.tecla_Tom').onclick = tocaSomPsh;
+document.querySelector('.tecla_psh').onclick = tocaSomPsh;
 
-function tocaSomClap () {
+function tocaSomTom () {
     document.querySelector('#som_tecla_tom').play();
 }
 
 document.querySelector('.tecla_tom').onclick = tocaSomTom;
-
-function tocaSomClap () {
-    document.querySelector('#som_tecla_clap').play();
-}
-
-document.querySelector('.tecla_clap').onclick = tocaSomClap;
